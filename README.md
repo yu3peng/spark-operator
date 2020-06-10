@@ -12,9 +12,8 @@
 ## 2. 创建 operator 以及集群
 
 ```bash
-git clone 
-kubectl apply -f manifest/operator.yaml
-kubectl apply -f examples/cluster.yaml
+git clone https://github.com/yu3peng/spark-operator.git && cd spark-operator
+kubectl apply -f manifest/operator.yaml && kubectl apply -f examples/cluster.yaml
 ```
 
 删除集群可以使用以下命令
