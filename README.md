@@ -18,7 +18,7 @@ kubectl apply -f manifest/operator.yaml
 
 利用以下命令观察spark-operator pod 状态
 ```bash
-wacth kubectl get pods
+watch kubectl get pods
 ```
 
 等待 spark-operator pod 状态为running 后，继续键入以下命令
@@ -28,7 +28,7 @@ kubectl apply -f examples/cluster.yaml
 
 利用以下命令观察 my-spark-cluster-m pod、my-spark-cluster-w pod 状态
 ```bash
-wacth kubectl get pods
+watch kubectl get pods
 ```
 
 ## 3. 运行 spark 应用
